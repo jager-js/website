@@ -22,6 +22,7 @@ Server.get('/Home.css', (req, res) => {
 Server.get('/', (req, res) => {
 
     res.sendFile(Path.join(__dirname + '/Views/Index.html'))
+    res.end()
 
 })
 
