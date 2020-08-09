@@ -28,5 +28,5 @@ Server.get('/', (req, res) => {
 
 
 Server.listen(8080, () => {
-    console.log('Application Deployed!')
+    console.log('Application Deployed! Goto http://localhost:8080/ to visit my portfolio.')
 })
