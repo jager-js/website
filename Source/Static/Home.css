@@ -1,5 +1,96 @@
 body {
 
     background: rgb(6, 13, 25);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+main {
+
+    flex-grow: 1;
+
+}
+
+header {
+
+    border-top: .75rem solid #23252c;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100vh;
+    justify-content: center;
+
+}
+
+.container-big {
+
+    max-width: 1650px;
+    margin: 0 auto;
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+
+}
+
+.header-title {
+
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 3rem;
+
+}
+
+.header-title-special {
+
+    color: #673ab7;
+
+}
+
+.header-desc {
+
+    color: white;
+    font-weight: 550;
+    font-size: 1.5rem;
+
+}
+
+.header-desc-special {
+
+    color: #673ab7;
+
+}
+
+.header-desc-2 {
+
+    color: white;
+
+}
+
+.btn {
+
+    cursor: pointer;
+
+}
+
+.btn-custom {
+
+    color: rgba(255,255,255,.75);
+    transition: all 200ms ease;
+    background: #23252c;
+    border-color: #23252c;
+
+}
+
+.btn:hover {
+
+    color: #673ab7;
+
+}
+
+.special {
+
+    color: #673ab7;
 
 }

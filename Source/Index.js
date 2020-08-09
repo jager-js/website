@@ -19,6 +19,13 @@ Server.get('/Home.css', (req, res) => {
 })
 
 
+Server.get('/header.svg', (req, res) => {
+
+    res.sendFile(Path.join(__dirname + '/Static/header.svg'))
+
+})
+
+
 Server.get('/', (req, res) => {
 
     res.sendFile(Path.join(__dirname + '/Views/Index.html'))
