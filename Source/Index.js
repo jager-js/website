@@ -15,6 +15,7 @@ const Server = Express();
 Server.get('/Home.css', (req, res) => {
 
     res.sendFile(Path.join(__dirname + '/Static/Home.css'))
+    res.end()
 
 })
 
