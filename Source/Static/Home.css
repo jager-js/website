@@ -94,3 +94,29 @@ header {
     color: #673ab7;
 
 }
+
+section {
+
+    text-align: center;
+
+}
+
+section .title p {
+
+    color: #673ab7;
+    font-size: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+
+}
+
+section .title h2 {
+
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: white;
+    text-transform: uppercase;
+
+}
+
