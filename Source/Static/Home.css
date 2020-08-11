@@ -5,6 +5,12 @@ body {
 
 }
 
+html {
+
+    scroll-behavior: smooth;
+
+}
+
 main {
 
     flex-grow: 1;
@@ -124,4 +130,16 @@ section .title h2 {
 
     height: 400px;
 
+}
+
+.border-button {
+    border: solid 1px #0b449c;
+    color: transparent;
+    transition: border-width 0.1s linear;
+}
+
+.border-button:hover { border-width: 3px; color: white; text-decoration: none; font-weight: bolder; text-transform: uppercase}
+
+a:link {
+    text-decoration: none ;
 }
