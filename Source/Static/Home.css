@@ -107,6 +107,12 @@ section {
 
 }
 
+#projects {
+
+    margin-bottom: 100px;
+
+}
+
 section .title p {
 
     color: #673ab7;
@@ -142,4 +148,43 @@ section .title h2 {
 
 a:link {
     text-decoration: none ;
+    color: white !important;
+}
+
+footer {
+
+    background: rgb(16, 17, 22);
+    padding: 32px 0;
+    color: white !important;
+
+}
+
+footer h2 {
+    flex-basis: 100%;
+    margin-bottom: 16px;
+}
+footer h2 {
+    margin-top: 0;
+    flex-grow: 1;
+}
+footer h2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+ h2 {
+     color: rgb(232, 230, 227);
+ }
+
+footer a {
+
+    margin-right: 15px;
+    color: white !important;
+
+}
+
+.cog {
+
+    margin-bottom: 16px;
+
 }
